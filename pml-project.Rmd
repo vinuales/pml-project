@@ -98,7 +98,7 @@ testing.cleaned <- testing.cleaned03
 Since the test set provided is the the ultimate validation set, we will split the current training in a test and train set to work with.
 
 ```{r}
-set.seed(19791108)
+set.seed(777)
 library(caret)
 
 classeIndex <- which(names(training.cleaned) == "classe")
